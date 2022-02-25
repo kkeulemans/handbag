@@ -1,5 +1,4 @@
 import React from 'react';
-import bag_4 from "../assets/bag_4.png";
 
 function Bag({naam, prijs, image}){
     return(
