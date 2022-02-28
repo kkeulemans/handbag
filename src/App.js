@@ -10,66 +10,66 @@ import Tile from "./components/Tile";
 import brand from './assets/brand.png'
 import our_story from './assets/our_story.png'
 function App() {
-  return (
-     <>
-         <h1>Handbags & Purses</h1>
-        <nav>
-         <Navigation
-             buttonName="to the collection"
-             disabled={false}/>
+    return (
+        <>
+            <h1>Handbags & Purses</h1>
+            <nav>
+                <Navigation
+                    buttonName="to the collection"
+                    disabled={false}/>
 
-            <Navigation
-                buttonName="shop all bags"
-                disabled={false}/>
+                <Navigation
+                    buttonName="shop all bags"
+                    disabled={false}/>
 
-            <Navigation
-                buttonName="pre-orders"
-                disabled={true}/>
-     </nav>
-         <main>
-             <Bag
-             naam="The handy bag"
-             prijs="€400,-"
-             image={bag_1}
-             />
+                <Navigation
+                    buttonName="pre-orders"
+                    disabled={true}/>
+            </nav>
+            <main>
+                <Bag
+                    naam="The handy bag"
+                    prijs="€400,-"
+                    image={bag_1}
+                />
 
-             <Bag
-                 naam="The stylish bag"
-                 prijs="€250,-"
-                 image={bag_2}
-             />
-             <Bag
-                 naam="The simple bag"
-                 prijs="€300,-"
-                 image={bag_3}
-             />
-             <Bag
-                 naam="The trendy bag"
-                 prijs="€150,-"
-                 image={bag_4}
-             />
+                <Bag
+                    naam="The stylish bag"
+                    prijs="€250,-"
+                    image={bag_2}
+                />
+                <Bag
+                    naam="The simple bag"
+                    prijs="€300,-"
+                    image={bag_3}
+                />
+                <Bag
+                    naam="The trendy bag"
+                    prijs="€150,-"
+                    image={bag_4}
+                />
 
-         </main>
+            </main>
 
-<footer>
-    <Tile info="The Brand"
-          description="Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            <footer>
+                <Tile info="The Brand"
+                      description="Lorem ipsum dolor sit amet, consectetur adipisicing elit.
             Eligendi non quis exercitationem culpa nesciunt nihil aut nostrum
             explicabo reprehenderit optio amet ab temporibus asperiores quasi
             cupiditate.
             Voluptatum ducimus voluptates voluptas?" />
-    <Tile id="img1" image={brand} alttext="brand image"/>
+                <Tile id="img1" image={brand} alttext="brand image"/>
 
-    <Tile id="img2" image={our_story} alttext="designers"/>
-    <Tile info="Our Story"
-    description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta
+                <Tile id="img2" image={our_story} alttext="designers"/>
+                <Tile info="Our Story"
+                      description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta
             minus molestiae vel beatae natus eveniet ratione temporibus aperiam
             harum alias officiis assumenda officia quibusdam deleniti"/>
 
 
-</footer>
-     </>
-  );
+            </footer>
+        </>
+    );
 }
 
 export default App;
